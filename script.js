@@ -95,6 +95,10 @@ const toggleModal = (show = true) => {
     if (modal) modal.classList.toggle("hidden", !show);
 };
 
+<<<<<<< HEAD
+=======
+// 7. Ініціалізація
+>>>>>>> 8057c992b28e2df630aaedc1c8369dc2a49e32f4
 const init = () => {
     localStorage.setItem("browserInfo", JSON.stringify(getBrowserInfo()));
     const storageBlock = document.getElementById("storage-info");
@@ -104,6 +108,10 @@ const init = () => {
         (new Date().getHours() >= 7 && dark.getHours() < 21 ? "light" : "dark");
     updateThemeUI(savedTheme);
 
+<<<<<<< HEAD
+=======
+    // Listeners
+>>>>>>> 8057c992b28e2df630aaedc1c8369dc2a49e32f4
     document.getElementById("theme-toggle")?.addEventListener("click", toggleTheme);
     document.getElementById("close-modal")?.addEventListener("click", () => toggleModal(false));
     
