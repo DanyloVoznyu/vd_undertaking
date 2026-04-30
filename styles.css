@@ -1,22 +1,21 @@
 :root {
-    /* Світла тема (дефолт) */
-    --bg-color: #f0f6ff;
-    --text-color: #1a2a40;
+    --bg-color: #effaf3;
+    --text-color: #102a1a;
     --section-bg: #ffffff;
-    --accent-blue: #2563eb;
-    --header-gradient: linear-gradient(135deg, #1e3a8a, #2563eb);
-    --card-shadow: 0 4px 15px rgba(30, 58, 138, 0.1);
-    --border-color: #cbd5e1;
+    --accent-blue: #16a34a;
+    --header-gradient: linear-gradient(135deg, #14532d, #22c55e);
+    --card-shadow: 0 4px 15px rgba(34, 197, 94, 0.15);
+    --border-color: #bbf7d0;
 }
 
 body.dark-theme {
-    --bg-color: #0f172a;
-    --text-color: #e2e8f0;
-    --section-bg: #1e293b;
-    --accent-blue: #60a5fa;
-    --header-gradient: linear-gradient(135deg, #0f172a, #1e293b);
-    --card-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
-    --border-color: #475569;
+    --bg-color: #0b1f14;
+    --text-color: #d1fae5;
+    --section-bg: #132a1c;
+    --accent-blue: #4ade80;
+    --header-gradient: linear-gradient(135deg, #052e16, #14532d);
+    --card-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    --border-color: #14532d;
 }
 
 * {
