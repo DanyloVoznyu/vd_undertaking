@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV — Возний Данило Тарасович</title>
+</head>
+
+<body>
+
+<header>
+<h1>Возний Данило Тарасович</h1>
+<p>Початківець програміст</p>
+
+<h2>Контактна інформація</h2>
+<ul>
+<li>Email: danylo.voznyi.kb.2023@lpnu.ua</li>
+<li>Телефон: +380971606690</li>
+</ul>
+</header>
+
+<main>
+
+<button id="theme-toggle">Перемкнути тему</button>
+
+<section>
+<h2>Про себе</h2>
+<p>
+Мотивований студент, який цікавиться програмуванням та сучасними технологіями. 
+Маю базові знання у кількох мовах програмування та досвід створення невеликих 
+проєктів. Постійно розвиваю свої технічні навички, вивчаю нові інструменти 
+та прагну отримати практичний досвід у сфері розробки програмного забезпечення.
+</p>
+</section>
+
+<section>
+<h2>Технічні навички</h2>
+<ul>
+<li>Базове програмування: C, C++, C#</li>
+<li>Базове програмування на Python</li>
+<li>Створення Telegram-ботів</li>
+<li>Основи алгоритмів та логіки програмування</li>
+</ul>
+</section>
+
+<section>
+<h2>Особисті якості</h2>
+<ul>
+<li>Аналітичне мислення</li>
+<li>Вміння вирішувати проблеми</li>
+<li>Самостійне навчання</li>
+<li>Відповідальність</li>
+<li>Командна робота</li>
+<li>Комунікація</li>
+<li>Критичне мислення</li>
+<li>Адаптивність</li>
+<li>Організація часу</li>
+<li>Стресостійкість</li>
+</ul>
+</section>
+
+<section>
+<h2>Освіта</h2>
+<p>
+Студент університету, спеціальність у сфері інформаційних технологій.
+</p>
+</section>
+
+<section>
+<h2>Проєкти</h2>
+<ul>
+<li>Telegram-боти для автоматизації простих завдань</li>
+<li>Навчальні програми на Python</li>
+</ul>
+</section>
+
+<section>
+    <h2>Коментарі попередніх роботодавців</h2>
+    <div id="comments-container">
+        <p>Завантаження коментарів...</p>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Возний Данило Тарасович</p>
+    <div id="storage-info"></div>
+</footer>
+
+<div id="feedback-modal" class="modal hidden">
+    <div class="modal-content">
+        <span id="close-modal" class="close-btn">&times;</span>
+        <h2>Форма зворотного зв'язку</h2>
+
+        <form id="feedback-form" action="https://formspree.io/f/mqegdrpr" method="POST">
+            <label for="name">Ім’я</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Номер телефону</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="message">Повідомлення</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Відправити</button>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
