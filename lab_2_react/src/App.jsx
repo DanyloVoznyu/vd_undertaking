@@ -19,6 +19,7 @@ function App() {
 
   useEffect(() => {
     localStorage.setItem("theme", theme);
+    // Додаємо клас dark-theme на body для підтримки твоїх CSS змінних
     if (theme === "dark") {
       document.body.classList.add("dark-theme");
     } else {
@@ -35,7 +36,10 @@ function App() {
   return (
     <div 
       className={`min-h-screen transition-colors duration-500 p-4 md:p-8 
-      ${isLight ? "bg-[#f0f6ff]" : "bg-[#0f172a]"}`}
+      ${isLight 
+        ? "bg-[#effaf3]" // Твоя змінна --bg-color (світла)
+        : "bg-[#0b1f14]" // Твоя змінна --bg-color (темна)
+      }`}
     >
       <div className="max-w-5xl mx-auto">
         <Header theme={theme} toggleTheme={toggleTheme} />
